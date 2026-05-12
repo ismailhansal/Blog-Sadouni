@@ -73,9 +73,9 @@ $(document).ready(function () {
     1. Preloader
   --------------------------------------------------------------*/
   function preloader() {
-  $('.cs_preloader_in').delay(4000).fadeOut('slow');
+  $('.cs_preloader_in').delay(400).fadeOut('slow');
 
-  $('.cs_preloader').delay(4600).fadeOut();
+  $('.cs_preloader').delay(400).fadeOut();
 }
 
   /*--------------------------------------------------------------
