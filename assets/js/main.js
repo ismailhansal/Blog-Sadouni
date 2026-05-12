@@ -38,9 +38,9 @@
     return $(selector).length > 0;
   };
 
-  $(window).on('load', function () {
-    preloader();
-  });
+$(document).ready(function () {
+  preloader();
+});
 
   $(function () {
     mainNav();
@@ -73,9 +73,9 @@
     1. Preloader
   --------------------------------------------------------------*/
   function preloader() {
-    $('.cs_preloader_in').fadeOut(150);
-    $('.cs_preloader').delay(150).fadeOut(200);
-}
+    $('.cs_preloader').fadeOut();
+    $('.cs_preloader_in').delay(150).fadeOut('slow');
+  }
 
   /*--------------------------------------------------------------
     2. Mobile Menu
