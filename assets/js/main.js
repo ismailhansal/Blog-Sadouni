@@ -73,9 +73,10 @@ $(document).ready(function () {
     1. Preloader
   --------------------------------------------------------------*/
   function preloader() {
-    $('.cs_preloader').fadeOut();
-    $('.cs_preloader_in').delay(4000).fadeOut('slow');
-  }
+  $('.cs_preloader_in').delay(4000).fadeOut('slow');
+
+  $('.cs_preloader').delay(4600).fadeOut();
+}
 
   /*--------------------------------------------------------------
     2. Mobile Menu
